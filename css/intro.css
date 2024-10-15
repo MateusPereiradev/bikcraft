@@ -1,6 +1,7 @@
 .intro-bg {
   background-color: #000000;
   color: #ffffff;
+  box-shadow: inset 0px -120px #ffffff;
 }
 
 .intro {
@@ -13,9 +14,15 @@
   gap: 0px 40px;
 }
 
+.intro img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .intro-conteudo {
   align-self: end;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
 }
 
 .intro-h1 {
