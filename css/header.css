@@ -61,10 +61,6 @@
   .header-menu {
     gap: 16px;
   }
-
-  .header {
-    justify-content: center;
-  }
 }
 
 @media (max-width: 600px) {
@@ -74,5 +70,8 @@
   .header-menu a {
     padding: 8px 12px;
     font-size: 14px;
+  }
+  .header {
+    justify-content: center;
   }
 }
