@@ -1,0 +1,15 @@
+.botao {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 16px 24px;
+  border-radius: 4px;
+  color: var(--cor-p5);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: linear-gradient(#ffbf00, #f2a50c);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) var(--cor-0);
+}
+
+.botao:hover {
+  background-image: linear-gradient(#ffb60d, #e59317);
+}
