@@ -4,6 +4,7 @@
 
 /* home */
 @import url(./home/intro.css);
+@import url(./home/bikes-home.css);
 
 /* utilidades */
 @import url(./utilidades/cores.css);
