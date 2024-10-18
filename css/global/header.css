@@ -5,13 +5,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 20px;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .header-menu {
@@ -72,5 +67,6 @@
   }
   .header {
     justify-content: center;
+    gap: 40px;
   }
 }

@@ -5,13 +5,9 @@
 }
 
 .intro {
-  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  box-sizing: border-box;
-  padding: 20px;
-  margin: auto auto;
-  gap: 0px 40px;
+  gap: 40px;
 }
 
 .intro img {
@@ -34,13 +30,6 @@
 .intro-p {
   font-size: 24px;
   line-height: 1.5;
-}
-
-@media (max-width: 600px) {
-  .intro-conteudo a {
-    padding: 12px 16px;
-    font-size: 14px;
-  }
 }
 
 @media (max-width: 1200px) {

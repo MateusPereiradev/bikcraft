@@ -27,42 +27,44 @@
 
 .bikes-lista h3 {
   margin-bottom: 10px;
-  position: relative;
   align-items: center;
   display: flex;
-  margin-left: 20px;
 }
-.bikes-lista a:hover h3 {
-  font-size: 2.2rem;
-}
+
 .bikes-lista h3::before {
   content: "";
   width: 12px;
   height: 8px;
+  margin-right: 8px;
   background-color: var(--cor-p1);
-  position: absolute;
   left: -20px;
+  transition: 0.3s;
+}
+
+.bikes-lista a:hover h3::before {
+  width: 16px;
 }
 
 .bikes-lista span {
-  padding-left: 20px;
-}
-
-.bikes-home h2 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
+  padding-left: 21px;
 }
 
 @media (max-width: 900px) {
   .bikes-lista {
     gap: 20px;
   }
+  .bikes-home {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 @media (max-width: 700px) {
   .bikes-home h2 {
     font-size: 3rem;
+  }
+  .bikes-home {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
