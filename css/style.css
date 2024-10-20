@@ -1,6 +1,7 @@
 /* global */
 @import url(./global/global.css);
 @import url(./global/header.css);
+@import url(./global/footer.css);
 
 /* home */
 @import url(./home/intro.css);
