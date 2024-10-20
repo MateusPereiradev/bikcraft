@@ -1,0 +1,104 @@
+.bicicletas-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.bicicletas {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr auto;
+  margin-bottom: 60px;
+  gap: 40px;
+  border-radius: 4px;
+}
+
+.bicicletas span {
+  top: 80px;
+  position: absolute;
+  display: block;
+  width: max-content;
+  color: var(--cor-0);
+  padding: 16px;
+  background-color: var(--cor-11);
+  border-radius: 4px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.bicicletas-conteudo {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.bicicletas-container .botao {
+  display: block;
+  width: max-content;
+  grid-column: 3;
+  align-self: end;
+  grid-row: 1;
+}
+
+.bicicletas-img img {
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.bicicletas-conteudo h3 {
+  padding-bottom: 20px;
+}
+
+.bicicletas-conteudo p {
+  padding-bottom: 32px;
+  width: 45ch;
+}
+
+.bicicletas-lista li + li {
+  padding-top: 16px;
+}
+
+.bicicletas-lista li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 42px;
+  font-weight: bold;
+}
+
+.bicicletas-lista li:first-child::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../img/icones/eletrica.svg);
+  width: 32px;
+  height: 32px;
+  left: 0px;
+}
+
+.bicicletas-lista li:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../img/icones/carbono.svg);
+  width: 32px;
+  height: 32px;
+  left: 0px;
+}
+
+.bicicletas-lista li:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../img/icones/velocidade.svg);
+  width: 32px;
+  height: 32px;
+  left: 0px;
+}
+
+.bicicletas-lista li:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../img/icones/rastreador.svg);
+  width: 32px;
+  height: 32px;
+  left: 0px;
+}
