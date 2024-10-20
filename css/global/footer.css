@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 2fr 3fr 3fr;
   padding-top: 40px;
+  box-sizing: border-box;
   padding-bottom: 80px;
   padding-left: 20px;
 }

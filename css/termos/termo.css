@@ -1,0 +1,38 @@
+.titulo-bg {
+  background-color: var(--cor-11);
+}
+
+.titulo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.titulo p {
+  text-transform: uppercase;
+}
+
+.termo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 120px;
+  padding-left: 20px;
+}
+
+.termo h3 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+.termo-lista li + li {
+  padding-top: 20px;
+}
+
+.termo-lista li {
+  max-width: 75ch;
+}
