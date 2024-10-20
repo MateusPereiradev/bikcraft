@@ -9,6 +9,7 @@
   grid-template-columns: 2fr 3fr 3fr;
   padding-top: 40px;
   padding-bottom: 80px;
+  padding-left: 20px;
 }
 
 .footer-container h3 {
@@ -52,4 +53,27 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-container > img {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    width: max-content;
+  }
+  .footer-info {
+    grid-column: 1;
+  }
+  .footer-img {
+    grid-column: 1;
+  }
 }
