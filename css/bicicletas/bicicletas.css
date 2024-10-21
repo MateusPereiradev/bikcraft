@@ -83,9 +83,3 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
-@media (max-width: 600px) {
-  .bicicleta-conteudo h3 {
-    font-size: 1rem;
-  }
-}
