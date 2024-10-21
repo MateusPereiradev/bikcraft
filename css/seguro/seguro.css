@@ -3,6 +3,7 @@
 }
 .vantagens {
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 .vantagens h2 {
   margin-bottom: 80px;
@@ -11,5 +12,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
-  margin-bottom: 60px;
+}
+
+.vantagens-lista img {
+  margin-bottom: 12px;
+}
+
+.vantagens-lista h3 {
+  margin-bottom: 12px;
 }
