@@ -21,6 +21,7 @@
 @import url(./depoimento/depoimento.css);
 
 /* seguro */
+@import url(./seguro/seguro-home.css);
 @import url(./seguro/seguro.css);
 
 /* termos */
