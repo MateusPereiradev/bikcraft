@@ -35,6 +35,7 @@
 .bicicleta-lista li {
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 
 .bicicleta-lista {
