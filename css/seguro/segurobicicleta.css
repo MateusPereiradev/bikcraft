@@ -27,6 +27,7 @@
   .segurobicicleta {
     grid-template-columns: 1fr;
   }
+
   .segurobicicleta-imagem img {
     width: 800px;
     height: 300px;
