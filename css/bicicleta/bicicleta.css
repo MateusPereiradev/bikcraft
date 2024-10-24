@@ -71,3 +71,25 @@
 .bicicleta-ficha li:last-child {
   border-bottom: none;
 }
+
+@media (max-width: 700px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+    padding-top: 32px;
+    padding-bottom: 40px;
+  }
+  .comprar {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .comprar li {
+    margin-left: 0px;
+  }
+  .bicicleta-info {
+    grid-template-columns: 1fr;
+  }
+  .bicicleta-conteudo {
+    grid-row: 1;
+  }
+}
