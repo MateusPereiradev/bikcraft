@@ -22,3 +22,19 @@
 .segurobicicleta-conteudo h2 {
   margin-bottom: 40px;
 }
+
+@media (max-width: 800px) {
+  .segurobicicleta {
+    grid-template-columns: 1fr;
+  }
+  .segurobicicleta-imagem img {
+    width: 800px;
+    height: 300px;
+  }
+  .segurobicicleta-conteudo {
+    padding-top: 0px;
+  }
+  .segurobicicleta-conteudo h2 {
+    font-size: 3rem;
+  }
+}
